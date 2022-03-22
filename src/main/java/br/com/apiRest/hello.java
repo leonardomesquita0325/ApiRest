@@ -47,6 +47,7 @@ public class hello {
 		.then() //Assertivas
 		    .statusCode(200);
 	}
+	@SuppressWarnings("deprecation")
 	@Test 
 	public void devoConhecerMatchersHamcrest() {
 		assertThat("Maria",is("Maria"));
